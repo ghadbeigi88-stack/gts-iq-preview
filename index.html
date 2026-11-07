@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">Gts-IQ | بوابة السفر الناجح — Gateway Travel Success</title>
+  <meta name="description" data-i18n-content="meta.desc" content="Gts-IQ بوابة السفر الناجح — رحلات خاصة مصممة للأفراد والعائلات، حجوزات طيران وفنادق وتأشيرات من بغداد. وجهتك تختارها أنت، وتجربتك نصممها معك.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#D61B22">
+  <link rel="alternate" hreflang="ar" href="index.html">
+  <link rel="alternate" hreflang="en" href="index.html?lang=en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script>
+    /* apply saved language before first paint to avoid a flash of the wrong direction */
+    (function () {
+      var q = new URLSearchParams(location.search).get("lang");
+      var l = q || localStorage.getItem("gts-lang");
+      if (l === "en") { document.documentElement.lang = "en"; document.documentElement.dir = "ltr"; }
+    })();
+  </script>
+</head>
+<body>
+
+<!-- ============ ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path fill="currentColor" d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></symbol>
+    <symbol id="i-hotel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 21V8l9-5 9 5v13M9 21v-6h6v6M8 10h.01M12 10h.01M16 10h.01"/></symbol>
+    <symbol id="i-visa" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 3h11l3 3v15H5zM9 13a3 3 0 1 0 6 0 3 3 0 1 0-6 0M8 18h8"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 7L12 17.6 5.8 21l1.4-7L2 9.3l7-.8z"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c.4 4.6 2.4 6.9 7 7.4-4.6.5-6.6 2.8-7 7.6-.4-4.8-2.4-7.1-7-7.6 4.6-.5 6.6-2.8 7-7.4zm7 11c.2 2.2 1 3.1 3 3.4-2 .3-2.8 1.2-3 3.6-.2-2.4-1-3.3-3-3.6 2-.3 2.8-1.2 3-3.4z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M19 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0zM12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 11h14v10H5zM8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12zM8.2 13.9 7 22l5-3 5 3-1.2-8.1"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16v16H4zM16 3v4M8 3v4M4 10h16"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path fill="currentColor" d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm5.5-2.5h.01"/></symbol>
+    <symbol id="i-tt" viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 2h-3.4v13.4a2.9 2.9 0 1 1-2-2.8V9.1a6.3 6.3 0 1 0 5.4 6.3V8.6a8 8 0 0 0 4.4 1.4V6.6a4.6 4.6 0 0 1-4.4-4.6z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM2 12h20M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path fill="currentColor" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 21V4M5 4h11l-2 4 2 4H5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 9h11v11H9zM5 15H4V4h11v1"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM12 6v6l4 2"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 4h18v16H3zM8.5 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM21 15l-5-5L5 20"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM15 9l-6 6M9 9l6 6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-print" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.3-4.3"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#home" class="brand" aria-label="Gts-IQ">
+      <img src="assets/img/logo-white.png" alt="GTS.IQ" class="brand-logo brand-logo--light">
+      <img src="assets/img/logo-red.png" alt="" class="brand-logo brand-logo--dark" aria-hidden="true">
+    </a>
+
+    <nav class="main-nav" id="mainNav" data-i18n-aria="nav.aria" aria-label="القائمة الرئيسية">
+      <a href="#home" class="is-active" data-i18n="nav.home">الرئيسية</a>
+      <a href="#about" data-i18n="nav.about">من نحن</a>
+      <a href="#contact" data-i18n="nav.contact">اتصل بنا</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+9647722228718" class="header-phone" dir="ltr"><svg><use href="#i-phone"/></svg><span>0772 222 8718</span></a>
+      <button class="lang-toggle" id="langToggle" type="button" data-i18n-aria="lang.aria" aria-label="Switch to English">
+        <svg><use href="#i-globe"/></svg><span data-i18n="lang.label">EN</span>
+      </button>
+      <a href="#contact?type=trip" class="btn btn-primary btn-sm" data-i18n="nav.book">احجز رحلتك</a>
+      <button class="nav-toggle" id="navToggle" data-i18n-aria="nav.open" aria-label="فتح القائمة" aria-expanded="false"><svg><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main class="view" data-view="home" data-title="Gts-IQ | بوابة السفر الناجح — Gateway Travel Success" data-title-key="meta.title">
+
+<!-- ============ HERO (Animation 1: Ken Burns slideshow + headline reveal) ============ -->
+<section class="hero" data-i18n-aria="hero.aria" aria-label="مقدمة">
+  <div class="hero-media" aria-hidden="true">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="assets/img/hero-poster.jpg">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-shade"></div>
+
+  <div class="container hero-content">
+    <p class="eyebrow hero-eyebrow"><span class="dot"></span> <span data-i18n="hero.eyebrow">Gateway Travel Success · بوابة السفر الناجح</span></p>
+    <h1 class="hero-title" data-split data-i18n="hero.title">وجهتك تختارها أنت،<br><em>وتجربتك نصممها معك.</em></h1>
+    <p class="hero-lead" data-i18n="hero.lead">رحلات خاصة مصممة للأفراد والعائلات — من اختيار الوجهة والإقامة إلى النقل والأنشطة، بخطة متكاملة تمنحك مساحة أكبر للاستمتاع والراحة.</p>
+
+    <div class="hero-cta">
+      <a href="#planner" class="btn btn-primary"><svg><use href="#i-spark"/></svg> <span data-i18n="hero.cta1">خطّط رحلتك بالذكاء الاصطناعي</span></a>
+      <a href="#destinations" class="btn btn-ghost" data-i18n="hero.cta2">استكشف الوجهات</a>
+    </div>
+  </div>
+
+  <div class="hero-foot container">
+    <span class="hero-tag" dir="rtl">#مزيج_سفر_ناجح</span>
+  </div>
+</section>
+
+<!-- ============ FLIGHT (Animation 2: scroll-driven video + stats) ============ -->
+<section class="flight" id="flight" data-i18n-aria="fl.aria" aria-label="رحلتك تبدأ من النافذة">
+  <div class="flight-sticky">
+    <canvas class="flight-canvas" id="flightCanvas" aria-hidden="true"></canvas>
+    <div class="flight-fade" id="flightFade" aria-hidden="true"></div>
+    <div class="flight-shade" aria-hidden="true"></div>
+    <div class="flight-outro" id="flightOutro" aria-hidden="true"></div>
+
+    <div class="flight-intro" id="flightIntro">
+      <p class="eyebrow eyebrow--light" data-i18n="fl.eyebrow">من مقعدك… إلى وجهتك</p>
+      <h2 data-i18n="fl.title">كل رحلة تبدأ من نافذة</h2>
+    </div>
+
+    <div class="flight-stats">
+      <div class="fstat fstat--start" data-fl-stat>
+        <span class="fstat-index">01 <i></i> 04</span>
+        <strong class="fstat-num"><span data-to="2500">0</span><em>+</em></strong>
+        <span class="fstat-line"></span>
+        <span class="fstat-label" data-i18n="st.1">مسافر وثق بنا</span>
+      </div>
+      <div class="fstat fstat--end" data-fl-stat>
+        <span class="fstat-index">02 <i></i> 04</span>
+        <strong class="fstat-num"><span data-to="40">0</span><em>+</em></strong>
+        <span class="fstat-line"></span>
+        <span class="fstat-label" data-i18n="st.2">وجهة حول العالم</span>
+      </div>
+      <div class="fstat fstat--start" data-fl-stat>
+        <span class="fstat-index">03 <i></i> 04</span>
+        <strong class="fstat-num"><span data-to="24">0</span><em>/7</em></strong>
+        <span class="fstat-line"></span>
+        <span class="fstat-label" data-i18n="st.3">دعم أثناء الرحلة</span>
+      </div>
+      <div class="fstat fstat--end" data-fl-stat>
+        <span class="fstat-index">04 <i></i> 04</span>
+        <strong class="fstat-num"><span data-to="100">0</span><em>%</em></strong>
+        <span class="fstat-line"></span>
+        <span class="fstat-label" data-i18n="st.4">رحلات خاصة غير جماعية</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ PLANE (pinned scene: the plane crosses with the scroll) ============ -->
+<section class="sky" id="sky" aria-hidden="true">
+  <div class="sky-stage" id="skyStage">
+    <div class="sky-frame" id="skyFrame" aria-hidden="true"><img class="sky-plane" id="skyPlane" src="assets/plane/plane.webp" alt="" decoding="async"></div>
+  </div>
+</section>
+
+<!-- ============ CITY TOUR (scroll-driven 3D map video; plane → tour → planner) ============ -->
+<section class="tour" id="tour" data-i18n-aria="tour.aria" aria-label="جولة في وجهاتنا">
+  <div class="tour-stage" id="tourStage">
+    <canvas class="tour-canvas" id="tourCanvas" aria-hidden="true"></canvas>
+    <div class="tour-title" data-in="-100" data-out="114"><span class="t-en">Paris</span><span class="t-ar">باريس</span></div>
+    <div class="tour-title" data-in="155" data-out="202"><span class="t-en">Swiss Alps</span><span class="t-ar">جبال الألب</span></div>
+    <div class="tour-title" data-in="229" data-out="276"><span class="t-en">Istanbul</span><span class="t-ar">إسطنبول</span></div>
+    <div class="tour-title" data-in="291" data-out="338"><span class="t-en">Dubai</span><span class="t-ar">دبي</span></div>
+    <div class="tour-title" data-in="371" data-out="1000"><span class="t-en">Maldives</span><span class="t-ar">جزر المالديف</span></div>
+  </div>
+</section>
+
+<!-- ============ AI TRIP PLANNER (appears in place as the city tour ends) ============ -->
+<section class="section planner-section" id="planner">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" data-i18n="pl.eyebrow">مخطط الرحلات الذكي</p>
+      <h2 data-i18n="pl.title">صمّم رحلتك في ثوانٍ</h2>
+      <p class="section-lead" data-i18n="pl.lead">اختر وجهتك وموعدك ومن يسافر معك، ودع الذكاء الاصطناعي يقترح عليك برنامجاً متكاملاً يمكنك تعديله مع مستشارينا.</p>
+    </div>
+    <div class="planner reveal">
+      <div class="planner-tabs" role="tablist">
+        <button class="is-active" data-tab="trip"><svg><use href="#i-spark"/></svg> <span data-i18n="pl.tab.trip">رحلة خاصة</span></button>
+        <button data-tab="flight"><svg><use href="#i-plane"/></svg> <span data-i18n="pl.tab.flight">طيران</span></button>
+        <button data-tab="hotel"><svg><use href="#i-hotel"/></svg> <span data-i18n="pl.tab.hotel">فنادق</span></button>
+        <button data-tab="visa"><svg><use href="#i-visa"/></svg> <span data-i18n="pl.tab.visa">تأشيرات</span></button>
+      </div>
+
+      <form class="planner-form" id="plannerForm">
+        <label class="field">
+          <span data-i18n="pl.dest">الوجهة</span>
+          <select name="dest" id="pDest">
+            <option value="istanbul" data-i18n="d.istanbul.full">إسطنبول، تركيا</option>
+            <option value="dubai" data-i18n="d.dubai.full">دبي، الإمارات</option>
+            <option value="maldives" data-i18n="d.maldives.full">جزر المالديف</option>
+            <option value="bali" data-i18n="d.bali.full">بالي، إندونيسيا</option>
+            <option value="paris" data-i18n="d.paris.full">باريس، فرنسا</option>
+            <option value="swiss" data-i18n="d.swiss.full">سويسرا</option>
+            <option value="kl" data-i18n="d.kl.full">كوالالمبور، ماليزيا</option>
+          </select>
+        </label>
+        <label class="field">
+          <span><svg><use href="#i-cal"/></svg> <span data-i18n="pl.date">تاريخ السفر</span></span>
+          <input type="date" name="date" id="pDate">
+        </label>
+        <label class="field">
+          <span data-i18n="pl.nights">المدة</span>
+          <select name="nights" id="pNights">
+            <option value="4" data-i18n="pl.n4">4 ليالٍ</option>
+            <option value="6" data-i18n="pl.n6" selected>6 ليالٍ</option>
+            <option value="8" data-i18n="pl.n8">8 ليالٍ</option>
+            <option value="10" data-i18n="pl.n10">10 ليالٍ</option>
+          </select>
+        </label>
+        <label class="field">
+          <span><svg><use href="#i-users"/></svg> <span data-i18n="pl.who">المسافرون</span></span>
+          <select name="who" id="pWho">
+            <option value="couple" data-i18n="pl.who.couple">شخصان</option>
+            <option value="family" data-i18n="pl.who.family" selected>عائلة</option>
+            <option value="solo" data-i18n="pl.who.solo">مسافر واحد</option>
+            <option value="friends" data-i18n="pl.who.friends">مجموعة أصدقاء</option>
+          </select>
+        </label>
+        <label class="field field--wide">
+          <span><svg><use href="#i-spark"/></svg> <span data-i18n="pl.wish">صِف رحلتك بكلماتك (اختياري)</span></span>
+          <input type="text" name="wish" id="pWish" data-i18n-ph="pl.ph.trip" placeholder="مثلاً: رحلة هادئة مع الأطفال، فندق على البحر، وأنشطة خفيفة…">
+        </label>
+        <button type="submit" class="btn btn-primary planner-submit">
+          <svg><use href="#i-spark"/></svg> <span data-i18n="pl.submit">صمّم رحلتي</span>
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS (shop) ============ -->
+<section class="section destinations" id="destinations">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow" data-i18n="ds.eyebrow">الوجهات المميزة</p>
+        <h2 data-i18n="ds.title">اختر وجهتك… والباقي علينا</h2>
+      </div>
+      <div class="filter-chips" role="tablist">
+        <button class="chip is-active" data-filter="all" data-i18n="ds.all">الكل</button>
+        <button class="chip" data-filter="family" data-i18n="ds.family">عائلية</button>
+        <button class="chip" data-filter="honeymoon" data-i18n="ds.honeymoon">شهر عسل</button>
+        <button class="chip" data-filter="city" data-i18n="ds.city">مدن وتسوق</button>
+        <button class="chip" data-filter="nature" data-i18n="ds.nature">طبيعة</button>
+      </div>
+    </div>
+
+    <div class="dest-grid">
+      <article class="dest-card dest-card--tall reveal" data-cat="family city">
+        <div class="dest-media" style="background-image:url('assets/img/istanbul.jpg')"></div>
+        <span class="dest-badge" data-i18n="ds.popular">الأكثر طلباً</span>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.turkey">تركيا</p>
+          <h3 data-i18n="d.istanbul">إسطنبول</h3>
+          <p class="dest-meta" data-i18n="m.istanbul">6 ليالٍ · فندق 5 نجوم · جولات خاصة</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="1495000"></span></p>
+            <a href="#payment?pkg=istanbul" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="family city">
+        <div class="dest-media" style="background-image:url('assets/img/dubai.jpg')"></div>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.uae">الإمارات</p>
+          <h3 data-i18n="d.dubai">دبي</h3>
+          <p class="dest-meta" data-i18n="m.dubai">5 ليالٍ · تسوق ومغامرات</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="1260000"></span></p>
+            <a href="#payment?pkg=dubai" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="honeymoon nature">
+        <div class="dest-media" style="background-image:url('assets/img/maldives.jpg')"></div>
+        <span class="dest-badge dest-badge--gold" data-i18n="ds.honeymoon">شهر عسل</span>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.maldives">المالديف</p>
+          <h3 data-i18n="d.maldives">جزر المالديف</h3>
+          <p class="dest-meta" data-i18n="m.maldives">5 ليالٍ · فيلا فوق الماء</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="3275000"></span></p>
+            <a href="#payment?pkg=maldives" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="honeymoon nature family">
+        <div class="dest-media" style="background-image:url('assets/img/bali.jpg')"></div>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.indonesia">إندونيسيا</p>
+          <h3 data-i18n="d.bali">بالي</h3>
+          <p class="dest-meta" data-i18n="m.bali">8 ليالٍ · طبيعة وثقافة</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="2100000"></span></p>
+            <a href="#payment?pkg=bali" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="honeymoon city">
+        <div class="dest-media" style="background-image:url('assets/img/paris.jpg')"></div>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.france">فرنسا</p>
+          <h3 data-i18n="d.paris">باريس</h3>
+          <p class="dest-meta" data-i18n="m.paris">6 ليالٍ · تأشيرة شنغن مشمولة</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="2690000"></span></p>
+            <a href="#payment?pkg=paris" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="nature family">
+        <div class="dest-media" style="background-image:url('assets/img/alps.jpg')"></div>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.swiss">سويسرا</p>
+          <h3 data-i18n="d.alps">جبال الألب</h3>
+          <p class="dest-meta" data-i18n="m.swiss">7 ليالٍ · قطارات بانورامية</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="3530000"></span></p>
+            <a href="#payment?pkg=swiss" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="dest-card reveal" data-cat="family city">
+        <div class="dest-media" style="background-image:url('assets/img/kl.jpg')"></div>
+        <div class="dest-body">
+          <p class="dest-country" data-i18n="c.malaysia">ماليزيا</p>
+          <h3 data-i18n="d.kl">كوالالمبور</h3>
+          <p class="dest-meta" data-i18n="m.kl">7 ليالٍ · مع لنكاوي</p>
+          <div class="dest-foot">
+            <p class="price"><small data-i18n="from">ابتداءً من</small> <span data-price="1645000"></span></p>
+            <a href="#payment?pkg=kl" class="btn btn-light btn-sm" data-i18n="book">احجز الآن</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY (Animation 2: plane flies along path on scroll) ============ -->
+<section class="section journey" id="services">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" data-i18n="jr.eyebrow">فلسفتنا</p>
+      <h2 data-i18n="jr.title">من حجوزات منفصلة… إلى تجربة متكاملة</h2>
+      <p class="section-lead" data-i18n="jr.lead">نبدأ بفهم رغباتك، ونمر باختيار الوجهة والإقامة والنقل والخدمات المناسبة، وننتهي برحلة مخططة بعناية.</p>
+    </div>
+
+    <div class="journey-track" id="journeyTrack">
+      <svg class="journey-path" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="jrGrad" gradientUnits="userSpaceOnUse" x1="1000" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#F0646A"/>
+            <stop offset="1" stop-color="#C4141C"/>
+          </linearGradient>
+        </defs>
+        <path id="journeyLine" d="M992,168 C972.5,152.0 936.2,74.7 875,72 C813.8,69.3 708.3,152.0 625,152 C541.7,152.0 458.3,72.0 375,72 C291.7,72.0 186.2,152.3 125,152 C63.8,151.7 27.5,83.7 8,70" fill="none"/>
+        <path id="journeyGlow" pathLength="1" d="M992,168 C972.5,152.0 936.2,74.7 875,72 C813.8,69.3 708.3,152.0 625,152 C541.7,152.0 458.3,72.0 375,72 C291.7,72.0 186.2,152.3 125,152 C63.8,151.7 27.5,83.7 8,70" fill="none"/>
+        <path id="journeyDraw" pathLength="1" d="M992,168 C972.5,152.0 936.2,74.7 875,72 C813.8,69.3 708.3,152.0 625,152 C541.7,152.0 458.3,72.0 375,72 C291.7,72.0 186.2,152.3 125,152 C63.8,151.7 27.5,83.7 8,70" fill="none"/>
+      </svg>
+
+      <div class="jr-end jr-end--from" id="jrFrom" aria-hidden="true">
+        <span class="jr-end-dot"><svg><use href="#i-pin"/></svg></span>
+        <span class="jr-end-label" data-i18n="jr.from">بغداد</span>
+      </div>
+      <div class="jr-end jr-end--to" id="jrTo" aria-hidden="true">
+        <span class="jr-end-dot"><svg><use href="#i-flag"/></svg></span>
+        <span class="jr-end-label" data-i18n="jr.to">وجهتك</span>
+      </div>
+
+      <span class="jr-node" data-node="0" aria-hidden="true"><b>1</b></span>
+      <span class="jr-node" data-node="1" aria-hidden="true"><b>2</b></span>
+      <span class="jr-node" data-node="2" aria-hidden="true"><b>3</b></span>
+      <span class="jr-node" data-node="3" aria-hidden="true"><b>4</b></span>
+
+      <div class="journey-plane" id="journeyPlane" aria-hidden="true">
+        <span class="journey-plane-ring"></span>
+        <svg class="journey-plane-icon"><use href="#i-plane"/></svg>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-no">1</span>
+          <h3 data-i18n="jr.s1.t">نفهم رغبتك</h3>
+          <p data-i18n="jr.s1.p">نستمع إليك: الميزانية، الأسلوب، من يسافر معك، وما الذي يجعل الرحلة مميزة بالنسبة لك.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-no">2</span>
+          <h3 data-i18n="jr.s2.t">نختار الوجهة والإقامة</h3>
+          <p data-i18n="jr.s2.p">فنادق وفلل مختارة بعناية، بمستوى الإقامة الذي يناسبك دون قيود الرحلات الجماعية.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-no">3</span>
+          <h3 data-i18n="jr.s3.t">ننسّق كل التفاصيل</h3>
+          <p data-i18n="jr.s3.p">الطيران، التأشيرة، النقل الخاص، الأنشطة والجولات — في خطة واحدة واضحة وشفافة.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-no">4</span>
+          <h3 data-i18n="jr.s4.t">أنت تستمتع فقط</h3>
+          <p data-i18n="jr.s4.p">نرافقك بالدعم طوال الرحلة، لتبقى مساحتك للراحة والاستمتاع.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="services-grid">
+      <div class="service reveal"><svg><use href="#i-plane"/></svg><h3 data-i18n="sv.1.t">تذاكر الطيران</h3><p data-i18n="sv.1.p">أفضل المسارات والأوقات لرحلتك.</p></div>
+      <div class="service reveal"><svg><use href="#i-hotel"/></svg><h3 data-i18n="sv.2.t">حجز الفنادق</h3><p data-i18n="sv.2.p">إقامة مختارة حسب ذوقك وميزانيتك.</p></div>
+      <div class="service reveal"><svg><use href="#i-visa"/></svg><h3 data-i18n="sv.3.t">التأشيرات</h3><p data-i18n="sv.3.p">متابعة ملف التأشيرة خطوة بخطوة.</p></div>
+      <div class="service reveal"><svg><use href="#i-star"/></svg><h3 data-i18n="sv.4.t">برامج خاصة</h3><p data-i18n="sv.4.p">رحلات عائلية وشهر عسل حسب الطلب.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VALUES / WHY US ============ -->
+<section class="section values">
+  <div class="container values-inner">
+    <div class="values-text reveal">
+      <p class="eyebrow eyebrow--light" data-i18n="vl.eyebrow">لماذا Gts-IQ</p>
+      <h2 data-i18n="vl.title">لا نسعى لأن نكون الخيار الأرخص،<br>بل الخيار الذي تثق به.</h2>
+      <p data-i18n="vl.p">في Gts-IQ لا نقيس نجاحنا بعدد الحجوزات فحسب، بل بمدى جودة التجربة التي نقدمها لكل عميل — حين تبحث عن الجودة، والراحة، والخصوصية، والقيمة الحقيقية.</p>
+      <a href="#about" class="btn btn-light"><span data-i18n="vl.btn">تعرّف علينا</span> <svg class="flip-x"><use href="#i-arrow"/></svg></a>
+    </div>
+    <ul class="values-list">
+      <li class="reveal"><svg><use href="#i-award"/></svg><div><h3 data-i18n="vl.1.t">الجودة</h3><p data-i18n="vl.1.p">اختيارات مدروسة في كل تفصيل.</p></div></li>
+      <li class="reveal"><svg><use href="#i-lock"/></svg><div><h3 data-i18n="vl.2.t">الخصوصية</h3><p data-i18n="vl.2.p">رحلات خاصة بك وبعائلتك فقط.</p></div></li>
+      <li class="reveal"><svg><use href="#i-shield"/></svg><div><h3 data-i18n="vl.3.t">المصداقية</h3><p data-i18n="vl.3.p">أسعار واضحة وشفافية كاملة.</p></div></li>
+      <li class="reveal"><svg><use href="#i-eye"/></svg><div><h3 data-i18n="vl.4.t">الاحترافية</h3><p data-i18n="vl.4.p">فريق متخصص في تنسيق السفر.</p></div></li>
+      <li class="reveal"><svg><use href="#i-heart"/></svg><div><h3 data-i18n="vl.5.t">الاهتمام بالعميل</h3><p data-i18n="vl.5.p">معك قبل الرحلة وخلالها وبعدها.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ PAYMENT TEASER ============ -->
+<section class="section pay" id="payment">
+  <div class="container pay-inner">
+    <div class="pay-text reveal">
+      <p class="eyebrow" data-i18n="py.eyebrow">الدفع الآمن</p>
+      <h2 data-i18n="py.title">ادفع بالطريقة التي تناسبك</h2>
+      <p data-i18n="py.p">ندعم الدفع عبر <strong>زين كاش</strong> و<strong>ماستر كارد / كي كارد</strong> والتحويل إلى حساباتنا في <strong>مصرف NBI</strong> و<strong>مصرف TBI</strong>. بعد الدفع، ارفع صورة الإيصال مباشرة من الموقع ليتم تأكيد حجزك من قِبل فريقنا.</p>
+
+      <div class="pay-methods">
+        <div class="pay-method">
+          <span class="pm-logo pm-zain">Zain<b>Cash</b></span>
+          <span data-i18n="py.zain">زين كاش</span>
+        </div>
+        <div class="pay-method">
+          <span class="pm-logo pm-mc"><i></i><i></i></span>
+          <span data-i18n="py.mc">ماستر كارد / كي كارد</span>
+        </div>
+        <div class="pay-method">
+          <span class="pm-logo pm-bank">NBI · TBI</span>
+          <span data-i18n="py.bank">تحويل مصرفي</span>
+        </div>
+      </div>
+      <a href="#payment" class="btn btn-primary"><span data-i18n="py.btn">الذهاب إلى صفحة الدفع</span> <svg class="flip-x"><use href="#i-arrow"/></svg></a>
+    </div>
+
+    <ol class="pay-steps reveal">
+      <li><span><svg><use href="#i-check"/></svg></span><div><h3 data-i18n="py.s1.t">اختر الباقة وادفع</h3><p data-i18n="py.s1.p">عبر زين كاش أو كي كارد أو التحويل المصرفي.</p></div></li>
+      <li><span><svg><use href="#i-upload"/></svg></span><div><h3 data-i18n="py.s2.t">ارفع لقطة شاشة الدفع</h3><p data-i18n="py.s2.p">تُرسل مباشرة إلى إدارة Gts-IQ.</p></div></li>
+      <li><span><svg><use href="#i-shield"/></svg></span><div><h3 data-i18n="py.s3.t">تأكيد الإدارة</h3><p data-i18n="py.s3.p">تظهر حالة «تم التأكيد» في صفحتك فور المراجعة.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section testimonials">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" data-i18n="ts.eyebrow">آراء عملائنا</p>
+      <h2 data-i18n="ts.title">تجارب نعتز بها</h2>
+    </div>
+    <div class="t-grid">
+      <figure class="t-card">
+        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="ts.1.q">«رحلتنا العائلية إلى إسطنبول كانت منظمة بالكامل، من الاستقبال في المطار حتى آخر جولة. شعرنا أن كل شيء مصمم لنا.»</blockquote>
+        <figcaption data-i18n="ts.1.n"><b>أبو علي</b> · بغداد</figcaption>
+      </figure>
+      <figure class="t-card">
+        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="ts.2.q">«شهر عسل في المالديف بلا أي قلق. الفريق كان معنا خطوة بخطوة، والفيلا كانت أجمل من الصور.»</blockquote>
+        <figcaption data-i18n="ts.2.n"><b>سارة ومصطفى</b> · البصرة</figcaption>
+      </figure>
+      <figure class="t-card">
+        <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote data-i18n="ts.3.q">«ساعدوني في ملف تأشيرة شنغن ورتبوا لي برنامجاً مرناً في باريس وسويسرا. خدمة احترافية حقاً.»</blockquote>
+        <figcaption data-i18n="ts.3.n"><b>حيدر</b> · أربيل</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= VIEW: about ================= -->
+<main class="view" data-view="about" data-title="من نحن | Gts-IQ بوابة السفر الناجح" data-title-key="meta.about.title" hidden>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="page-hero-media" style="background-image:url('assets/img/istanbul-hero.jpg')"></div>
+  <div class="container page-hero-inner">
+    <nav class="crumbs" data-i18n-aria="pg.crumbs" aria-label="مسار التنقل"><a href="#home" data-i18n="nav.home">الرئيسية</a><span aria-hidden="true">/</span><span data-i18n="nav.about">من نحن</span></nav>
+    <h1 class="page-title" data-i18n="ab.h1">وجهتك تختارها أنت،<br><em>وتجربتك نصممها معك.</em></h1>
+    <p class="page-lead" data-i18n="ab.lead">شركة متخصصة في تنظيم وتنسيق تجارب السفر والسياحة، نضع احتياجاتك وتطلعاتك في مقدمة أولوياتنا.</p>
+  </div>
+</section>
+
+<!-- ============ WHO WE ARE ============ -->
+<section class="section about-intro">
+  <div class="container about-intro-grid">
+    <div class="about-text reveal">
+      <p class="eyebrow" data-i18n="nav.about">من نحن</p>
+      <h2 data-i18n="ab.who.title">Gts-IQ — بوابة السفر الناجح</h2>
+      <p data-i18n="ab.p1">Gts-IQ Gateway Travel Success هي شركة متخصصة في تنظيم وتنسيق تجارب السفر والسياحة، نضع احتياجات العميل وتطلعاته في مقدمة أولوياتنا، ونعمل على تقديم حلول سفر تجمع بين الجودة والمرونة والاهتمام بأدق التفاصيل.</p>
+      <p data-i18n="ab.p3">نركز على الرحلات الخاصة المصممة للأفراد والعائلات، مع مرونة في اختيار الوجهات ومستوى الإقامة والأنشطة والخدمات، دون الالتزام بجداول الرحلات الجماعية.</p>
+      <ul class="about-points">
+        <li><svg><use href="#i-check"/></svg><span data-i18n="ab.pt1">رحلات خاصة للأفراد والعائلات</span></li>
+        <li><svg><use href="#i-check"/></svg><span data-i18n="ab.pt2">مرونة في الوجهة ومستوى الإقامة والأنشطة</span></li>
+        <li><svg><use href="#i-check"/></svg><span data-i18n="ab.pt3">دون الالتزام بجداول الرحلات الجماعية</span></li>
+      </ul>
+    </div>
+    <div class="about-collage reveal">
+      <img src="assets/img/maldives.jpg" alt="" class="ac-1" loading="lazy">
+      <img src="assets/img/paris.jpg" alt="" class="ac-2" loading="lazy">
+      <div class="ac-badge"><img src="assets/img/logo-red.png" alt="GTS.IQ"><span dir="ltr">Travel Beyond Expectations.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section class="section about-philo">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow eyebrow--light" data-i18n="jr.eyebrow">فلسفتنا</p>
+      <h2 data-i18n="jr.title">من مجموعة حجوزات منفصلة… إلى تجربة متكاملة</h2>
+      <p class="section-lead" data-i18n="ab.p2">تتمثل فلسفتنا في تحويل السفر من مجموعة حجوزات منفصلة إلى تجربة متكاملة، تبدأ بفهم رغبات العميل، وتمر باختيار الوجهة والإقامة وخيارات النقل والخدمات المناسبة، وتنتهي برحلة مخططة بعناية تمنحه مساحة أكبر للاستمتاع والراحة.</p>
+    </div>
+    <ol class="philo-flow reveal">
+      <li><span class="pf-ico"><svg><use href="#i-users"/></svg></span><h3 data-i18n="ab.f1.t">فهم رغباتك</h3><p data-i18n="ab.f1.p">نبدأ بالاستماع: ميزانيتك، أسلوبك، ومن يرافقك.</p></li>
+      <li><span class="pf-ico"><svg><use href="#i-hotel"/></svg></span><h3 data-i18n="ab.f2.t">الوجهة والإقامة</h3><p data-i18n="ab.f2.p">نختار الوجهة ومستوى الإقامة الذي يناسبك.</p></li>
+      <li><span class="pf-ico"><svg><use href="#i-plane"/></svg></span><h3 data-i18n="ab.f3.t">النقل والخدمات</h3><p data-i18n="ab.f3.p">طيران، تأشيرات، نقل خاص وأنشطة في خطة واحدة.</p></li>
+      <li><span class="pf-ico"><svg><use href="#i-heart"/></svg></span><h3 data-i18n="ab.f4.t">رحلة مخططة بعناية</h3><p data-i18n="ab.f4.p">مساحة أكبر لك للاستمتاع والراحة.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="section about-quote">
+  <div class="container">
+    <figure class="big-quote reveal">
+      <span class="bq-mark" aria-hidden="true">”</span>
+      <blockquote data-i18n="ab.p4">في Gts-IQ، لا نقيس نجاحنا بعدد الحجوزات فحسب، بل بمدى جودة التجربة التي نعمل على تقديمها لكل عميل. نحن لا نسعى إلى أن نكون الخيار الأرخص، بل نعمل لنكون الخيار الذي تثق به عندما تبحث عن الجودة، والراحة، والخصوصية، والقيمة الحقيقية.</blockquote>
+      <figcaption><b dir="ltr">Gts-IQ — Travel Beyond Expectations.</b></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ VISION / MISSION / VALUES ============ -->
+<section class="section about-vmv">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" data-i18n="ab.vmv.eyebrow">رؤيتنا · رسالتنا · قيمنا</p>
+      <h2 data-i18n="ab.vmv.title">ما الذي يقودنا في كل رحلة</h2>
+    </div>
+    <div class="vmv-grid">
+      <article class="vmv-card reveal">
+        <span class="vmv-ico"><svg><use href="#i-eye"/></svg></span>
+        <h3 data-i18n="ab.vision.t">رؤيتنا</h3>
+        <p data-i18n="ab.vision.p">أن نكون اسماً موثوقاً في عالم السفر الخاص والتجارب السياحية المصممة حسب الطلب.</p>
+      </article>
+      <article class="vmv-card reveal">
+        <span class="vmv-ico"><svg><use href="#i-flag"/></svg></span>
+        <h3 data-i18n="ab.mission.t">رسالتنا</h3>
+        <p data-i18n="ab.mission.p">تقديم خدمات سفر متكاملة ترتكز على الجودة والشفافية والمرونة والاهتمام بالتفاصيل.</p>
+      </article>
+      <article class="vmv-card vmv-card--values reveal">
+        <span class="vmv-ico"><svg><use href="#i-award"/></svg></span>
+        <h3 data-i18n="ab.values.t">قيمنا</h3>
+        <ul class="chips">
+          <li data-i18n="vl.1.t">الجودة</li>
+          <li data-i18n="vl.2.t">الخصوصية</li>
+          <li data-i18n="vl.3.t">المصداقية</li>
+          <li data-i18n="vl.4.t">الاحترافية</li>
+          <li data-i18n="vl.5.t">الاهتمام بالعميل</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEXT STEP ============ -->
+<section class="section about-next">
+  <div class="container">
+    <div class="next-card reveal">
+      <div class="next-media" style="background-image:url('assets/img/bali.jpg')"></div>
+      <div class="next-text">
+        <p class="eyebrow" data-i18n="ab.next.eyebrow">رحلتك القادمة</p>
+        <h2 data-i18n="ab.next.title">جاهز لتصميم رحلتك؟</h2>
+        <p data-i18n="ab.next.p">أخبرنا بما تتمناه، ونحن نتولى التفاصيل — من الفكرة الأولى حتى عودتك.</p>
+        <div class="next-actions">
+          <a href="#contact" class="btn btn-primary"><span data-i18n="ab.next.btn1">تواصل معنا</span> <svg class="flip-x"><use href="#i-arrow"/></svg></a>
+          <a href="#planner" class="btn btn-outline"><svg><use href="#i-spark"/></svg> <span data-i18n="ab.next.btn2">خطّط رحلتك بالذكاء الاصطناعي</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= VIEW: contact ================= -->
+<main class="view" data-view="contact" data-title="اتصل بنا | Gts-IQ بوابة السفر الناجح" data-title-key="meta.contact.title" hidden>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero">
+  <div class="page-hero-media" style="background-image:url('assets/img/dubai.jpg')"></div>
+  <div class="container page-hero-inner">
+    <nav class="crumbs" data-i18n-aria="pg.crumbs" aria-label="مسار التنقل"><a href="#home" data-i18n="nav.home">الرئيسية</a><span aria-hidden="true">/</span><span data-i18n="nav.contact">اتصل بنا</span></nav>
+    <h1 class="page-title" data-i18n="ct.h1">يسعدنا تواصلك…<br><em>ونصمم رحلتك معك.</em></h1>
+    <p class="page-lead" data-i18n="ct.lead">اتصل بنا، راسلنا على واتساب، أو زرنا في مكتب المبيعات في بغداد — فريقنا جاهز للإجابة عن أسئلتك.</p>
+  </div>
+</section>
+
+<!-- ============ CONTACT CHANNELS ============ -->
+<section class="section contact-channels">
+  <div class="container">
+    <div class="channel-grid">
+      <a class="channel reveal" href="tel:+9647722228718">
+        <span class="channel-ico"><svg><use href="#i-phone"/></svg></span>
+        <span class="channel-label" data-i18n="ct.c1">اتصل بنا</span>
+        <b dir="ltr">0772 222 8718</b>
+      </a>
+      <a class="channel reveal" href="tel:+9647822228718">
+        <span class="channel-ico"><svg><use href="#i-phone"/></svg></span>
+        <span class="channel-label" data-i18n="ct.c2">الخط الثاني</span>
+        <b dir="ltr">0782 222 8718</b>
+      </a>
+      <a class="channel channel--wa reveal" href="https://wa.me/9647722228718" target="_blank" rel="noopener">
+        <span class="channel-ico"><svg><use href="#i-wa"/></svg></span>
+        <span class="channel-label" data-i18n="ct.c3">واتساب</span>
+        <b data-i18n="ct.c3.v">راسلنا مباشرة</b>
+      </a>
+      <a class="channel reveal" href="https://www.google.com/maps/search/?api=1&amp;query=%D8%B4%D8%A7%D8%B1%D8%B9+14+%D8%B1%D9%85%D8%B6%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1+%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF" target="_blank" rel="noopener">
+        <span class="channel-ico"><svg><use href="#i-pin"/></svg></span>
+        <span class="channel-label" data-i18n="ct.c4">مكتب المبيعات</span>
+        <b data-i18n="ct.c4.v">بغداد – حي المنصور، شارع 14 رمضان</b>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORM + MAP ============ -->
+<section class="section contact-main">
+  <div class="container contact-grid">
+    <div class="form-card reveal">
+      <div id="contactFormWrap">
+        <p class="eyebrow" data-i18n="ct.f.eyebrow">أرسل طلبك</p>
+        <h2 data-i18n="ct.f.title">أخبرنا عن رحلتك</h2>
+        <p class="form-lead" data-i18n="ct.f.lead">املأ النموذج وسيتواصل معك أحد مستشارينا في أقرب وقت.</p>
+        <form class="form-grid" id="contactForm" novalidate>
+          <label class="field">
+            <span data-i18n="f.name">الاسم الكامل</span>
+            <input type="text" name="name" id="cName" required autocomplete="name">
+          </label>
+          <label class="field">
+            <span data-i18n="f.phone">رقم الهاتف</span>
+            <input type="tel" name="phone" id="cPhone" required autocomplete="tel" dir="ltr" placeholder="07XX XXX XXXX">
+          </label>
+          <label class="field">
+            <span data-i18n="ct.f.type">نوع الطلب</span>
+            <select name="type" id="cType">
+              <option value="trip" data-i18n="ct.t.trip">رحلة خاصة</option>
+              <option value="flight" data-i18n="ct.t.flight">تذاكر طيران</option>
+              <option value="hotel" data-i18n="ct.t.hotel">حجز فنادق</option>
+              <option value="visa" data-i18n="ct.t.visa">تأشيرات</option>
+              <option value="payment" data-i18n="ct.t.payment">استفسار عن الدفع</option>
+              <option value="other" data-i18n="ct.t.other">أخرى</option>
+            </select>
+          </label>
+          <label class="field">
+            <span data-i18n="ct.f.dest">الوجهة (اختياري)</span>
+            <input type="text" name="dest" id="cDest" data-i18n-ph="ct.f.dest.ph" placeholder="مثلاً: إسطنبول">
+          </label>
+          <label class="field">
+            <span data-i18n="pl.date">تاريخ السفر</span>
+            <input type="date" name="date" id="cDate">
+          </label>
+          <label class="field">
+            <span data-i18n="pl.who">المسافرون</span>
+            <select name="who" id="cWho">
+              <option value="couple" data-i18n="pl.who.couple">شخصين</option>
+              <option value="family" data-i18n="pl.who.family">عائلة</option>
+              <option value="solo" data-i18n="pl.who.solo">مسافر واحد</option>
+              <option value="friends" data-i18n="pl.who.friends">مجموعة أصدقاء</option>
+            </select>
+          </label>
+          <label class="field field--full">
+            <span data-i18n="ct.f.msg">رسالتك</span>
+            <textarea name="msg" id="cMsg" rows="4" data-i18n-ph="ct.f.msg.ph" placeholder="اكتب تفاصيل طلبك أو سؤالك…"></textarea>
+          </label>
+          <p class="form-error field--full" id="contactError" role="alert" hidden></p>
+          <button class="btn btn-primary field--full form-submit" type="submit"><svg class="flip-send"><use href="#i-send"/></svg> <span data-i18n="ct.f.send">إرسال الطلب</span></button>
+        </form>
+      </div>
+      <div class="form-done" id="contactDone" hidden aria-live="polite"></div>
+    </div>
+
+    <aside class="contact-aside reveal">
+      <div class="map-card">
+        <iframe title="Gts-IQ — Al-Mansour, Baghdad" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=%D8%B4%D8%A7%D8%B1%D8%B9%2014%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%20%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF&amp;z=15&amp;output=embed"></iframe>
+        <div class="map-foot">
+          <svg><use href="#i-pin"/></svg>
+          <div>
+            <b data-i18n="ct.c4">مكتب المبيعات</b>
+            <span data-i18n="ct.c4.v">بغداد – حي المنصور، شارع 14 رمضان</span>
+          </div>
+        </div>
+      </div>
+      <div class="follow-card">
+        <h3 data-i18n="ct.follow">تابع رحلاتنا وعروضنا</h3>
+        <p data-i18n="ct.follow.p">أحدث العروض والوجهات على صفحاتنا.</p>
+        <div class="follow-links">
+          <a href="https://www.instagram.com/g.t.s_iq" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg><span dir="ltr">@g.t.s_iq</span></a>
+          <a href="https://www.facebook.com/share/1JLvN4TuNW/?mibextid=wwXIfr" target="_blank" rel="noopener"><svg><use href="#i-fb"/></svg><span>Facebook</span></a>
+          <a href="https://www.tiktok.com/@gtsiq" target="_blank" rel="noopener"><svg><use href="#i-tt"/></svg><span dir="ltr">@gtsiq</span></a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section faq">
+  <div class="container faq-inner">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" data-i18n="faq.eyebrow">أسئلة شائعة</p>
+      <h2 data-i18n="faq.title">قبل أن تسأل…</h2>
+    </div>
+    <div class="faq-list reveal">
+      <details>
+        <summary><span data-i18n="faq.1.q">كيف أدفع ثمن رحلتي؟</span><svg><use href="#i-chev"/></svg></summary>
+        <p data-i18n="faq.1.a">عبر زين كاش أو ماستر كارد / كي كارد أو التحويل إلى حساباتنا في مصرف NBI ومصرف TBI. بعد الدفع ارفع لقطة شاشة الإيصال في <a href="#payment">صفحة الدفع</a> لترسل مباشرة إلى الإدارة.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.2.q">متى يتم تأكيد حجزي؟</span><svg><use href="#i-chev"/></svg></summary>
+        <p data-i18n="faq.2.a">بعد مراجعة الإدارة لإيصال الدفع تظهر حالة «تم التأكيد» مباشرة في صفحة الدفع، ويمكنك متابعتها لاحقاً برقم الطلب.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.3.q">هل رحلاتكم جماعية؟</span><svg><use href="#i-chev"/></svg></summary>
+        <p data-i18n="faq.3.a">لا، نركز على الرحلات الخاصة المصممة للأفراد والعائلات، دون الالتزام بجداول الرحلات الجماعية.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.4.q">هل تساعدون في التأشيرات؟</span><svg><use href="#i-chev"/></svg></summary>
+        <p data-i18n="faq.4.a">نعم، نتابع ملف التأشيرة خطوة بخطوة ونوضح لك المستمسكات المطلوبة حسب الوجهة.</p>
+      </details>
+      <details>
+        <summary><span data-i18n="faq.5.q">هل يمكنني تعديل برنامج الرحلة؟</span><svg><use href="#i-chev"/></svg></summary>
+        <p data-i18n="faq.5.a">بالتأكيد — المرونة جزء من فلسفتنا: تختار الوجهة ومستوى الإقامة والأنشطة، ونعدّل البرنامج معك حتى يناسبك.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= VIEW: payment ================= -->
+<main class="view" data-view="payment" data-title="الدفع ورفع الإيصال | Gts-IQ" data-title-key="meta.pay.title" hidden>
+
+<!-- ============ PAGE HERO ============ -->
+<section class="page-hero page-hero--short">
+  <div class="page-hero-media" style="background-image:url('assets/img/maldives-hero.jpg')"></div>
+  <div class="container page-hero-inner">
+    <nav class="crumbs" data-i18n-aria="pg.crumbs" aria-label="مسار التنقل"><a href="#home" data-i18n="nav.home">الرئيسية</a><span aria-hidden="true">/</span><span data-i18n="nav.pay">الدفع</span></nav>
+    <h1 class="page-title" data-i18n="pp.h1">الدفع ورفع الإيصال</h1>
+    <p class="page-lead" data-i18n="pp.lead">ادفع عبر زين كاش أو ماستر كارد / كي كارد أو التحويل المصرفي، ثم أرسل لقطة شاشة الدفع إلى الإدارة من هنا وتابع تأكيد حجزك مباشرة.</p>
+  </div>
+</section>
+
+<!-- ============ CHECKOUT ============ -->
+<section class="section checkout">
+  <div class="container checkout-grid">
+
+    <div class="checkout-main">
+      <form class="pay-card" id="payForm" novalidate>
+
+        <fieldset class="pay-block">
+          <legend><span class="pb-no">1</span><span data-i18n="pp.b1">معلومات الحجز</span></legend>
+          <div class="form-grid">
+            <label class="field">
+              <span data-i18n="f.name">الاسم الكامل</span>
+              <input type="text" id="payName" required autocomplete="name">
+            </label>
+            <label class="field">
+              <span data-i18n="f.phone">رقم الهاتف</span>
+              <input type="tel" id="payPhone" required autocomplete="tel" dir="ltr" placeholder="07XX XXX XXXX">
+            </label>
+            <label class="field">
+              <span data-i18n="pp.trip">الرحلة / الباقة</span>
+              <select id="payTrip">
+                <option value="istanbul" data-i18n="d.istanbul.full">إسطنبول، تركيا</option>
+                <option value="dubai" data-i18n="d.dubai.full">دبي، الإمارات</option>
+                <option value="maldives" data-i18n="d.maldives.full">جزر المالديف</option>
+                <option value="bali" data-i18n="d.bali.full">بالي، إندونيسيا</option>
+                <option value="paris" data-i18n="d.paris.full">باريس، فرنسا</option>
+                <option value="swiss" data-i18n="d.swiss.full">سويسرا</option>
+                <option value="kl" data-i18n="d.kl.full">كوالالمبور، ماليزيا</option>
+                <option value="other" data-i18n="pp.trip.other">رحلة أخرى / خدمة أخرى</option>
+              </select>
+            </label>
+            <label class="field field--amount">
+              <span data-i18n="pp.amount">المبلغ المدفوع (دينار عراقي)</span>
+              <span class="amount-input"><input type="text" id="payAmount" inputmode="numeric" dir="ltr" autocomplete="off" required><i data-i18n="pp.iqd">د.ع</i></span>
+            </label>
+            <label class="field field--full">
+              <span data-i18n="pp.ref">رقم الحجز (اختياري)</span>
+              <input type="text" id="payRef" dir="auto" data-i18n-ph="pp.ref.ph" placeholder="إن كان لديك رقم حجز من مستشارك">
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="pay-block">
+          <legend><span class="pb-no">2</span><span data-i18n="pp.b2">اختر طريقة الدفع</span></legend>
+          <div class="pm-qrs">
+            <figure class="pm-qr">
+              <figcaption data-i18n="py.zain">زين كاش</figcaption>
+              <img src="assets/img/pay-zaincash.jpg" alt="باركد الدفع عبر زين كاش" data-i18n-alt="pp.zain.qr">
+              <a class="btn btn-sm btn-outline" href="assets/img/pay-zaincash.jpg" download="GTS-ZainCash-QR.jpg"><svg><use href="#i-upload"/></svg><span data-i18n="pp.qr.save">حفظ الباركد</span></a>
+            </figure>
+            <figure class="pm-qr">
+              <figcaption data-i18n="pp.ki.name">سوبر كي</figcaption>
+              <img src="assets/img/pay-superki.jpg" alt="باركد الدفع عبر سوبر كي" data-i18n-alt="pp.ki.qr">
+              <a class="btn btn-sm btn-outline" href="assets/img/pay-superki.jpg" download="GTS-SuperKi-QR.jpg"><svg><use href="#i-upload"/></svg><span data-i18n="pp.qr.save">حفظ الباركد</span></a>
+            </figure>
+          </div>
+          <div class="pm-choices">
+            <label class="pm-choice">
+              <input type="radio" name="payMethod" value="zaincash" checked>
+              <span class="pm-logo pm-zain">Zain<b>Cash</b></span>
+              <span class="pm-text"><b data-i18n="py.zain">زين كاش</b><small data-i18n="pp.zain.s">باركد أو تحويل إلى المحفظة</small></span>
+              <span class="pm-tick"><svg><use href="#i-check"/></svg></span>
+            </label>
+            <label class="pm-choice">
+              <input type="radio" name="payMethod" value="ki">
+              <span class="pm-logo pm-mc"><i></i><i></i></span>
+              <span class="pm-text"><b data-i18n="py.mc">ماستر كارد / كي كارد</b><small data-i18n="pp.ki.s">باركد سوبر كي أو رقم البطاقة</small></span>
+              <span class="pm-tick"><svg><use href="#i-check"/></svg></span>
+            </label>
+            <label class="pm-choice">
+              <input type="radio" name="payMethod" value="nbi">
+              <span class="pm-logo pm-bank">NBI</span>
+              <span class="pm-text"><b data-i18n="py.nbi">مصرف NBI</b><small data-i18n="pp.nbi.s">حساب الدينار</small></span>
+              <span class="pm-tick"><svg><use href="#i-check"/></svg></span>
+            </label>
+            <label class="pm-choice">
+              <input type="radio" name="payMethod" value="tbi">
+              <span class="pm-logo pm-bank">TBI</span>
+              <span class="pm-text"><b data-i18n="py.tbi">مصرف TBI العراقي التجاري</b><small data-i18n="pp.tbi.s">تحويل مصرفي</small></span>
+              <span class="pm-tick"><svg><use href="#i-check"/></svg></span>
+            </label>
+          </div>
+
+          <div class="pm-details" data-for="zaincash">
+            <p data-i18n="pp.zain.intro">امسح الباركد من تطبيق زين كاش أو حوّل المبلغ إلى الرقم التالي:</p>
+                <div class="copy-rows">
+                  <div class="copy-row"><span data-i18n="pp.wallet">رقم المحفظة</span><b dir="ltr">+964 781 081 5444</b><button type="button" class="copy-btn" data-copy="+9647810815444"><svg><use href="#i-copy"/></svg><span data-i18n="pp.copy">نسخ</span></button></div>
+                </div>
+                <ol class="pm-steps">
+                  <li data-i18n="pp.zain.1">افتح تطبيق زين كاش.</li>
+                  <li data-i18n="pp.zain.2">امسح الباركد أو أدخل رقم المحفظة، ثم أدخل المبلغ وأكّد العملية.</li>
+                  <li data-i18n="pp.shot">التقط لقطة شاشة لإيصال العملية.</li>
+                </ol>
+          </div>
+          <div class="pm-details" data-for="ki" hidden>
+            <p data-i18n="pp.ki.intro">امسح الباركد من تطبيق سوبر كي أو حوّل المبلغ إلى البطاقة التالية:</p>
+                <div class="copy-rows">
+                  <div class="copy-row"><span data-i18n="pp.card">رقم البطاقة</span><b dir="ltr">2203641465</b><button type="button" class="copy-btn" data-copy="2203641465"><svg><use href="#i-copy"/></svg><span data-i18n="pp.copy">نسخ</span></button></div>
+                </div>
+                <ol class="pm-steps">
+                  <li data-i18n="pp.ki.1">افتح تطبيق سوبر كي.</li>
+                  <li data-i18n="pp.ki.2">امسح الباركد أو أدخل رقم البطاقة، ثم أدخل المبلغ وأكّد العملية.</li>
+                  <li data-i18n="pp.shot">التقط لقطة شاشة لإيصال العملية.</li>
+                </ol>
+          </div>
+          <div class="pm-details" data-for="nbi" hidden>
+            <p data-i18n="pp.nbi.intro">حوّل المبلغ إلى حساب الدينار في مصرف NBI:</p>
+            <div class="copy-rows">
+              <div class="copy-row"><span data-i18n="pp.iban">رقم الحساب (IBAN)</span><b dir="ltr">IQ43NBIQ853002000186351</b><button type="button" class="copy-btn" data-copy="IQ43NBIQ853002000186351"><svg><use href="#i-copy"/></svg><span data-i18n="pp.copy">نسخ</span></button></div>
+            </div>
+            <ol class="pm-steps">
+              <li data-i18n="pp.bank.1">حوّل المبلغ من تطبيق مصرفك أو من أحد فروع المصرف.</li>
+              <li data-i18n="pp.shot">التقط لقطة شاشة لإيصال العملية.</li>
+            </ol>
+          </div>
+          <div class="pm-details" data-for="tbi" hidden>
+            <p data-i18n="pp.tbi.intro">حوّل المبلغ إلى الحساب التالي في مصرف TBI العراقي التجاري:</p>
+            <div class="copy-rows">
+              <div class="copy-row"><span data-i18n="pp.account">رقم الحساب</span><b dir="ltr">0016337827002</b><button type="button" class="copy-btn" data-copy="0016337827002"><svg><use href="#i-copy"/></svg><span data-i18n="pp.copy">نسخ</span></button></div>
+            </div>
+            <ol class="pm-steps">
+              <li data-i18n="pp.bank.1">حوّل المبلغ من تطبيق مصرفك أو من أحد فروع المصرف.</li>
+              <li data-i18n="pp.shot">التقط لقطة شاشة لإيصال العملية.</li>
+            </ol>
+          </div>
+        </fieldset>
+
+        <fieldset class="pay-block">
+          <legend><span class="pb-no">3</span><span data-i18n="pp.b3">ارفع لقطة شاشة الدفع</span></legend>
+          <div class="dropzone" id="dropzone">
+            <input type="file" id="payFile" accept="image/*" class="sr-only" tabindex="-1">
+            <button type="button" class="dz-empty" id="dzPick">
+              <span class="dz-ico"><svg><use href="#i-upload"/></svg></span>
+              <b data-i18n="pp.dz.t">اسحب الصورة هنا أو اضغط للاختيار</b>
+              <small data-i18n="pp.dz.s">أو الصق لقطة الشاشة مباشرة (Ctrl + V) · PNG أو JPG</small>
+            </button>
+            <div class="dz-preview" id="dzPreview" hidden>
+              <img id="dzImg" alt="">
+              <div class="dz-meta">
+                <span class="dz-ok"><svg><use href="#i-check"/></svg> <span data-i18n="pp.dz.ok">تم إرفاق لقطة الشاشة</span></span>
+                <small id="dzName" dir="ltr"></small>
+                <button type="button" class="btn btn-sm btn-outline" id="dzChange" data-i18n="pp.dz.change">تغيير الصورة</button>
+              </div>
+            </div>
+          </div>
+          <label class="field field--full pay-note">
+            <span data-i18n="pp.note">ملاحظة للإدارة (اختياري)</span>
+            <textarea id="payNote" rows="2"></textarea>
+          </label>
+        </fieldset>
+
+        <p class="form-error" id="payError" role="alert" hidden></p>
+        <button class="btn btn-primary pay-submit" type="submit" id="paySubmit"><svg class="flip-send"><use href="#i-send"/></svg> <span data-i18n="pp.send">إرسال إلى الإدارة</span></button>
+        <p class="pay-secure"><svg><use href="#i-lock"/></svg> <span data-i18n="pp.secure">تُرسل لقطة الشاشة إلى إدارة Gts-IQ فقط للتحقق من الدفع.</span></p>
+      </form>
+
+      <div class="pay-card status-card" id="payStatus" hidden aria-live="polite"></div>
+    </div>
+
+    <aside class="checkout-aside">
+      <div class="side-card sum-card">
+        <h3 data-i18n="pp.sum">ملخص الدفع</h3>
+        <dl>
+          <div><dt data-i18n="pp.trip">الرحلة / الباقة</dt><dd id="sumTrip">—</dd></div>
+          <div><dt data-i18n="pp.method">طريقة الدفع</dt><dd id="sumMethod">—</dd></div>
+        </dl>
+        <div class="sum-total"><span data-i18n="pp.total">المبلغ</span><b id="sumAmount">—</b></div>
+      </div>
+
+      <div class="side-card how-card">
+        <h3 data-i18n="pp.how">كيف يتم تأكيد الدفع؟</h3>
+        <ul>
+          <li><span><svg><use href="#i-upload"/></svg></span><p data-i18n="pp.how.1">ترسل لقطة شاشة الدفع من هذه الصفحة.</p></li>
+          <li><span><svg><use href="#i-shield"/></svg></span><p data-i18n="pp.how.2">تراجع إدارة Gts-IQ الإيصال.</p></li>
+          <li><span><svg><use href="#i-check"/></svg></span><p data-i18n="pp.how.3">تظهر الموافقة هنا مباشرة دون إعادة تحميل الصفحة.</p></li>
+        </ul>
+      </div>
+
+      <div class="side-card track-card">
+        <h3 data-i18n="pp.track">تتبّع طلب سابق</h3>
+        <form class="track-form" id="trackForm">
+          <input type="text" id="trackId" dir="ltr" placeholder="GTS-XXXXXX" autocomplete="off" data-i18n-aria="pp.track" aria-label="تتبّع طلب سابق">
+          <button type="submit" class="btn btn-sm btn-dark"><svg><use href="#i-search"/></svg> <span data-i18n="pp.track.btn">عرض</span></button>
+        </form>
+        <p class="form-error" id="trackError" role="alert" hidden></p>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ================= VIEW: admin ================= -->
+<main class="view admin" data-view="admin" data-title="لوحة الإدارة | Gts-IQ" data-title-key="meta.admin.title" hidden>
+
+  <!-- ============ LOGIN ============ -->
+  <section class="admin-login" id="adminLogin">
+    <form class="login-card" id="loginForm">
+      <span class="login-ico"><svg><use href="#i-lock"/></svg></span>
+      <h1 data-i18n="ad.login.t">لوحة الإدارة</h1>
+      <p data-i18n="ad.login.p">سجّل الدخول لمراجعة إيصالات الدفع وطلبات العملاء.</p>
+      <label class="field">
+        <span data-i18n="ad.pin">رمز الدخول</span>
+        <input type="password" id="adminPin" inputmode="numeric" autocomplete="current-password" dir="ltr" required>
+      </label>
+      <p class="form-error" id="loginError" role="alert" hidden></p>
+      <button class="btn btn-primary" type="submit" data-i18n="ad.login.btn">دخول</button>
+      <small class="demo-hint" data-i18n="ad.login.hint">نسخة تجريبية — رمز الدخول: 1234</small>
+    </form>
+  </section>
+
+  <!-- ============ DASHBOARD ============ -->
+  <section class="admin-app" id="adminApp" hidden>
+    <div class="container">
+      <div class="admin-head">
+        <div>
+          <h1 data-i18n="ad.title">طلبات الدفع</h1>
+          <p data-i18n="ad.lead">راجع لقطات شاشة الدفع، ثم وافق أو ارفض — تظهر النتيجة للعميل في صفحة الدفع فوراً.</p>
+        </div>
+        <div class="admin-head-actions"><button class="btn btn-sm btn-outline" id="adminClear" type="button" data-i18n="ad.clear">حذف البيانات التجريبية</button><button class="btn btn-sm btn-dark" id="adminLogout" type="button" hidden><svg><use href="#i-logout"/></svg> <span data-i18n="ad.logout">خروج</span></button></div>
+      </div>
+
+      <div class="admin-stats">
+        <div class="a-stat a-stat--pending"><b id="cntPending">0</b><span data-i18n="ad.s.pending">بانتظار المراجعة</span></div>
+        <div class="a-stat a-stat--approved"><b id="cntApproved">0</b><span data-i18n="ad.s.approved">تمت الموافقة</span></div>
+        <div class="a-stat a-stat--rejected"><b id="cntRejected">0</b><span data-i18n="ad.s.rejected">مرفوضة</span></div>
+        <div class="a-stat a-stat--msg"><b id="cntMsg">0</b><span data-i18n="ad.s.msg">رسائل التواصل</span></div>
+      </div>
+
+      <div class="admin-tabs" role="tablist">
+        <button type="button" class="is-active" data-filter="pending" data-i18n="ad.f.pending">بانتظار المراجعة</button>
+        <button type="button" data-filter="all" data-i18n="ad.f.all">كل الطلبات</button>
+        <button type="button" data-filter="approved" data-i18n="ad.f.approved">المقبولة</button>
+        <button type="button" data-filter="rejected" data-i18n="ad.f.rejected">المرفوضة</button>
+        <button type="button" data-filter="messages" data-i18n="ad.f.msg">رسائل التواصل</button>
+      </div>
+
+      <div class="admin-list" id="adminList" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- receipt viewer -->
+  <div class="modal" id="imgModal" role="dialog" aria-modal="true" hidden>
+    <div class="modal-card img-card">
+      <button class="modal-close" id="imgClose" type="button" data-i18n-aria="modal.close" aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+      <img id="imgFull" alt="">
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+</main>
+
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/img/logo-white.png" alt="GTS.IQ" class="footer-logo">
+      <p>Gts-IQ — Gateway Travel Success<br>بوابة السفر الناجح</p>
+      <p class="footer-slogan"><span dir="ltr">Travel Beyond Expectations.</span></p>
+    </div>
+    <div>
+      <h4 data-i18n="ft.links">روابط سريعة</h4>
+      <ul>
+        <li><a href="#home" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="#about" data-i18n="nav.about">من نحن</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">اتصل بنا</a></li>
+        <li><a href="#payment" data-i18n="ft.pay">الدفع ورفع الإيصال</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.contact">تواصل معنا</h4>
+      <ul class="footer-contact">
+        <li><svg><use href="#i-phone"/></svg><a href="tel:+9647722228718" dir="ltr">+964 772 222 8718</a></li>
+        <li><svg><use href="#i-phone"/></svg><a href="tel:+9647822228718" dir="ltr">+964 782 222 8718</a></li>
+        <li><svg><use href="#i-pin"/></svg><span data-i18n="ft.addr">مكتب المبيعات: بغداد – حي المنصور، شارع 14 رمضان</span></li>
+      </ul>
+    </div>
+    <div>
+      <h4 data-i18n="ft.follow">تابعنا</h4>
+      <div class="socials socials--footer">
+        <a href="https://www.instagram.com/g.t.s_iq" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+        <a href="https://www.facebook.com/share/1JLvN4TuNW/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+        <a href="https://www.tiktok.com/@gtsiq" target="_blank" rel="noopener" aria-label="TikTok"><svg><use href="#i-tt"/></svg></a>
+      </div>
+      <p class="footer-pay" data-i18n="ft.methods">طرق الدفع: زين كاش · ماستر كارد / كي كارد · مصرف NBI · مصرف TBI</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Gts-IQ. <span data-i18n="ft.rights">جميع الحقوق محفوظة.</span></span>
+    <span class="hero-tag" dir="rtl">#مزيج_سفر_ناجح</span>
+  </div>
+</footer>
+
+<!-- ============ PLANNER RESULT MODAL ============ -->
+<div class="modal" id="plannerModal" role="dialog" aria-modal="true" hidden>
+  <div class="modal-card">
+    <button class="modal-close" id="plannerClose" type="button" data-i18n-aria="modal.close" aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+    <div class="planner-result" id="plannerResult" aria-live="polite"></div>
+  </div>
+</div>
+
+<!-- ============ AI CHATBOT ============ -->
+<button class="chat-fab" id="chatFab" data-i18n-aria="ch.open" aria-label="فتح المساعد الذكي" aria-expanded="false">
+  <span class="chat-fab-orb">
+    <span class="orb-ring"></span>
+    <svg class="ico-open"><use href="#i-spark"/></svg>
+    <svg class="ico-close"><use href="#i-close"/></svg>
+    <span class="orb-dot"></span>
+  </span>
+  <span class="chat-fab-label"><b data-i18n="ch.fab">المساعد الذكي</b><small data-i18n="ch.fab.s">اسألني عن رحلتك</small></span>
+</button>
+
+<div class="chat-hint" id="chatHint" hidden>
+  <span class="chat-hint-ava"><svg><use href="#i-spark"/></svg></span>
+  <p data-i18n="ch.hint"><b>مرحباً 👋</b>أنا مساعدك الذكي، هل تريد مساعدة في اختيار وجهتك؟</p>
+  <button class="chat-hint-close" id="chatHintClose" type="button" data-i18n-aria="modal.close" aria-label="إغلاق"><svg><use href="#i-close"/></svg></button>
+</div>
+
+<section class="chat" id="chat" data-i18n-aria="ch.title" aria-label="مساعد Gts-IQ الذكي" hidden>
+  <header class="chat-head">
+    <div class="chat-avatar"><svg><use href="#i-spark"/></svg></div>
+    <div>
+      <h3 data-i18n="ch.title">مساعد Gts-IQ الذكي</h3>
+      <p><span class="online"></span> <span data-i18n="ch.status">متصل الآن · يرد خلال ثوانٍ</span></p>
+    </div>
+  </header>
+  <div class="chat-body" id="chatBody"></div>
+  <div class="chat-quick" id="chatQuick">
+    <button data-i18n="ch.q1">أريد رحلة عائلية</button>
+    <button data-i18n="ch.q2">عروض شهر العسل</button>
+    <button data-i18n="ch.q3">كيف أدفع؟</button>
+    <button data-i18n="ch.q4">أحتاج تأشيرة</button>
+  </div>
+  <form class="chat-input" id="chatForm">
+    <input type="text" id="chatText" data-i18n-ph="ch.ph" placeholder="اكتب سؤالك هنا…" autocomplete="off" data-i18n-aria="ch.ph" aria-label="اكتب سؤالك هنا…">
+    <button type="submit" data-i18n-aria="ch.send" aria-label="إرسال"><svg><use href="#i-send"/></svg></button>
+  </form>
+</section>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/pages.js"></script>
+</body>
+</html>
